@@ -1,0 +1,104 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+		'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-image: linear-gradient(#333, #222);
+	color: #FFFFFF;
+	height: 100%;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+input {
+	background-color: transparent;
+	color: white;
+}
+
+.backdrop {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.detail-details {
+	background-color: #FFFFFF;
+	position: relative;
+	z-index: 10;
+	margin-top: 400px;
+	color: #333;
+	display: flex;
+	text-align: left;
+	gap: 20px;
+	padding: 20px;
+}
+
+.detail-poster {
+	margin-top: -160px;
+	box-shadow: rgba(0, 0, 0, 0.4);
+	/* position: relative;
+	top: -100px; */
+} 
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.movie-list {
+	list-style: none;
+	margin: 0;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+}
+
+.movie-list img {
+	width: 100%;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+
+/*# sourceMappingURL=/movie-app-start.e31bb0bc.css.map */
